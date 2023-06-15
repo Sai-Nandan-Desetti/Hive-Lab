@@ -1,0 +1,112 @@
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 30
+2022-04-30 22:54:53,397 Stage-1 map = 0%,  reduce = 0%
+2022-04-30 22:54:58,652 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.41 sec
+2022-04-30 22:55:05,993 Stage-1 map = 100%,  reduce = 7%, Cumulative CPU 5.5 sec
+2022-04-30 22:55:12,247 Stage-1 map = 100%,  reduce = 10%, Cumulative CPU 7.47 sec
+2022-04-30 22:55:13,295 Stage-1 map = 100%,  reduce = 13%, Cumulative CPU 9.39 sec
+2022-04-30 22:55:18,544 Stage-1 map = 100%,  reduce = 17%, Cumulative CPU 11.47 sec
+2022-04-30 22:55:19,580 Stage-1 map = 100%,  reduce = 20%, Cumulative CPU 13.4 sec
+2022-04-30 22:55:24,818 Stage-1 map = 100%,  reduce = 27%, Cumulative CPU 17.49 sec
+2022-04-30 22:55:31,087 Stage-1 map = 100%,  reduce = 33%, Cumulative CPU 21.47 sec
+2022-04-30 22:55:37,317 Stage-1 map = 100%,  reduce = 40%, Cumulative CPU 25.59 sec
+2022-04-30 22:55:43,584 Stage-1 map = 100%,  reduce = 43%, Cumulative CPU 27.55 sec
+2022-04-30 22:55:44,622 Stage-1 map = 100%,  reduce = 47%, Cumulative CPU 29.58 sec
+2022-04-30 22:55:49,877 Stage-1 map = 100%,  reduce = 53%, Cumulative CPU 33.6 sec
+2022-04-30 22:55:55,083 Stage-1 map = 100%,  reduce = 57%, Cumulative CPU 35.5 sec
+2022-04-30 22:55:57,154 Stage-1 map = 100%,  reduce = 60%, Cumulative CPU 37.52 sec
+2022-04-30 22:56:01,305 Stage-1 map = 100%,  reduce = 63%, Cumulative CPU 39.6 sec
+2022-04-30 22:56:04,405 Stage-1 map = 100%,  reduce = 67%, Cumulative CPU 41.53 sec
+2022-04-30 22:56:06,481 Stage-1 map = 100%,  reduce = 70%, Cumulative CPU 43.51 sec
+2022-04-30 22:56:10,658 Stage-1 map = 100%,  reduce = 73%, Cumulative CPU 45.48 sec
+2022-04-30 22:56:11,688 Stage-1 map = 100%,  reduce = 77%, Cumulative CPU 47.36 sec
+2022-04-30 22:56:16,863 Stage-1 map = 100%,  reduce = 80%, Cumulative CPU 49.4 sec
+2022-04-30 22:56:17,891 Stage-1 map = 100%,  reduce = 83%, Cumulative CPU 51.47 sec
+2022-04-30 22:56:24,120 Stage-1 map = 100%,  reduce = 90%, Cumulative CPU 55.45 sec
+2022-04-30 22:56:29,324 Stage-1 map = 100%,  reduce = 97%, Cumulative CPU 57.86 sec
+2022-04-30 22:56:35,535 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 59.71 sec
+MapReduce Total cumulative CPU time: 59 seconds 710 msec
+Ended Job = job_1651383726238_0002
+Loading data to table default.covid_partst_clustdt_1 partition (state_unionterritory=null)
+	 Time taken for load dynamic partitions : 5402
+	Loading partition {state_unionterritory=Goa}
+	Loading partition {state_unionterritory=Assam}
+	Loading partition {state_unionterritory=Delhi}
+	Loading partition {state_unionterritory=Dadra and Nagar Haveli}
+	Loading partition {state_unionterritory=Manipur}
+	Loading partition {state_unionterritory=Gujarat}
+	Loading partition {state_unionterritory=Daman & Diu}
+	Loading partition {state_unionterritory=Uttar Pradesh}
+	Loading partition {state_unionterritory=Jammu and Kashmir}
+	Loading partition {state_unionterritory=Chandigarh}
+	Loading partition {state_unionterritory=Kerala}
+	Loading partition {state_unionterritory=Tamil Nadu}
+	Loading partition {state_unionterritory=Chhattisgarh}
+	Loading partition {state_unionterritory=Bihar}
+	Loading partition {state_unionterritory=Andaman and Nicobar Islands}
+	Loading partition {state_unionterritory=Maharashtra}
+	Loading partition {state_unionterritory=Jharkhand}
+	Loading partition {state_unionterritory=Arunachal Pradesh}
+	Loading partition {state_unionterritory=Cases being reassigned to states}
+	Loading partition {state_unionterritory=Meghalaya}
+	Loading partition {state_unionterritory=Telangana}
+	Loading partition {state_unionterritory=Madhya Pradesh}
+	Loading partition {state_unionterritory=Odisha}
+	Loading partition {state_unionterritory=Ladakh}
+	Loading partition {state_unionterritory=Uttarakhand}
+	Loading partition {state_unionterritory=Unassigned}
+	Loading partition {state_unionterritory=Tripura}
+	Loading partition {state_unionterritory=Rajasthan}
+	Loading partition {state_unionterritory=Karnataka}
+	Loading partition {state_unionterritory=Himachal Pradesh}
+	Loading partition {state_unionterritory=Puducherry}
+	Loading partition {state_unionterritory=Andhra Pradesh}
+	Loading partition {state_unionterritory=Nagaland}
+	Loading partition {state_unionterritory=Haryana}
+	Loading partition {state_unionterritory=Mizoram}
+	Loading partition {state_unionterritory=Punjab}
+	Loading partition {state_unionterritory=West Bengal}
+	Loading partition {state_unionterritory=Sikkim}
+	 Time taken for adding to write entity : 8
+Partition default.covid_partst_clustdt_1{state_unionterritory=Andaman and Nicobar Islands} stats: [numFiles=30, numRows=72, totalSize=5039, rawDataSize=1493]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Andhra Pradesh} stats: [numFiles=30, numRows=72, totalSize=5296, rawDataSize=1750]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Arunachal Pradesh} stats: [numFiles=30, numRows=70, totalSize=4854, rawDataSize=1334]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Assam} stats: [numFiles=30, numRows=72, totalSize=5084, rawDataSize=1538]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Bihar} stats: [numFiles=30, numRows=72, totalSize=5195, rawDataSize=1649]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Cases being reassigned to states} stats: [numFiles=30, numRows=23, totalSize=3417, rawDataSize=508]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Chandigarh} stats: [numFiles=30, numRows=72, totalSize=5091, rawDataSize=1545]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Chhattisgarh} stats: [numFiles=30, numRows=72, totalSize=5074, rawDataSize=1528]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Dadra and Nagar Haveli} stats: [numFiles=30, numRows=37, totalSize=3806, rawDataSize=715]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Daman & Diu} stats: [numFiles=30, numRows=1, totalSize=2643, rawDataSize=20]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Delhi} stats: [numFiles=30, numRows=72, totalSize=5401, rawDataSize=1855]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Goa} stats: [numFiles=30, numRows=72, totalSize=4962, rawDataSize=1416]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Gujarat} stats: [numFiles=30, numRows=72, totalSize=5433, rawDataSize=1887]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Haryana} stats: [numFiles=30, numRows=72, totalSize=5232, rawDataSize=1686]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Himachal Pradesh} stats: [numFiles=30, numRows=72, totalSize=5068, rawDataSize=1522]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Jammu and Kashmir} stats: [numFiles=30, numRows=72, totalSize=5220, rawDataSize=1674]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Jharkhand} stats: [numFiles=30, numRows=72, totalSize=5094, rawDataSize=1548]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Karnataka} stats: [numFiles=30, numRows=72, totalSize=5271, rawDataSize=1725]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Kerala} stats: [numFiles=30, numRows=72, totalSize=5210, rawDataSize=1664]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Ladakh} stats: [numFiles=30, numRows=72, totalSize=5051, rawDataSize=1505]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Madhya Pradesh} stats: [numFiles=30, numRows=72, totalSize=5371, rawDataSize=1825]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Maharashtra} stats: [numFiles=30, numRows=72, totalSize=5524, rawDataSize=1978]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Manipur} stats: [numFiles=30, numRows=72, totalSize=4948, rawDataSize=1402]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Meghalaya} stats: [numFiles=30, numRows=59, totalSize=4594, rawDataSize=1217]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Mizoram} stats: [numFiles=30, numRows=72, totalSize=4916, rawDataSize=1370]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Nagaland} stats: [numFiles=30, numRows=26, totalSize=3462, rawDataSize=514]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Odisha} stats: [numFiles=30, numRows=72, totalSize=5147, rawDataSize=1601]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Puducherry} stats: [numFiles=30, numRows=72, totalSize=4962, rawDataSize=1416]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Punjab} stats: [numFiles=30, numRows=72, totalSize=5271, rawDataSize=1725]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Rajasthan} stats: [numFiles=30, numRows=72, totalSize=5373, rawDataSize=1827]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Sikkim} stats: [numFiles=30, numRows=19, totalSize=3222, rawDataSize=365]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Tamil Nadu} stats: [numFiles=30, numRows=72, totalSize=5400, rawDataSize=1854]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Telangana} stats: [numFiles=30, numRows=72, totalSize=5315, rawDataSize=1769]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Tripura} stats: [numFiles=30, numRows=66, totalSize=4846, rawDataSize=1378]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Unassigned} stats: [numFiles=30, numRows=1, totalSize=2642, rawDataSize=19]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Uttar Pradesh} stats: [numFiles=30, numRows=72, totalSize=5355, rawDataSize=1809]
+Partition default.covid_partst_clustdt_1{state_unionterritory=Uttarakhand} stats: [numFiles=30, numRows=72, totalSize=5082, rawDataSize=1536]
+Partition default.covid_partst_clustdt_1{state_unionterritory=West Bengal} stats: [numFiles=30, numRows=72, totalSize=5316, rawDataSize=1770]
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 30   Cumulative CPU: 59.71 sec   HDFS Read: 219709 HDFS Write: 248685 SUCCESS
+Total MapReduce CPU Time Spent: 59 seconds 710 msec
+OK
+Time taken: 124.967 seconds

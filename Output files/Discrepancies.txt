@@ -1,0 +1,36 @@
+Andaman and Nicobar Islands	1305
+Andhra Pradesh	20012
+Arunachal Pradesh	33
+Assam	11789
+Bihar	8519
+Chandigarh	588
+Chhattisgarh	886
+Dadra and Nagar Haveli	25
+Delhi	9755
+Goa	73
+Gujarat	1844
+Haryana	562
+Himachal Pradesh	125
+Jammu and Kashmir	957
+Jharkhand	73
+Karnataka	1120
+Kerala	244
+Ladakh	1684
+Madhya Pradesh	3033
+Maharashtra	95928
+Manipur	1003
+Meghalaya	291
+Mizoram	105
+Nagaland	3
+Odisha	166
+Puducherry	288
+Punjab	66
+Rajasthan	1128
+Sikkim	15
+Tamil Nadu	3210
+Telangana	98810
+Tripura	78
+Uttar Pradesh	1460
+Uttarakhand	839
+West Bengal	2512
+Time taken: 17.531 seconds, Fetched: 35 row(s)
